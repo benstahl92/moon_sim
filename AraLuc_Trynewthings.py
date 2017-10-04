@@ -2,6 +2,10 @@ import numpy as np
 from scipy import spatial as sp
 from rock import Rock
 
+#This class checks for any overlapping rocks using the scipy spatial KDTree
+#package and then deals with these collisions, assuming they are perfectly
+#inelastic. - L
+
 dens = 2.65e3
 #****************************************************************************************************
 
